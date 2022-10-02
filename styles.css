@@ -43,3 +43,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*Main Styles*/
+:root{
+    --yellow: #F6D64A;
+    --teal: #55BCD5;
+    --purple: #9B26B0;
+    --blue: #499BD2;
+    --darkgray: #222222;
+    --lightgray: #EAEAEA;
+    --white: #FFFFFF;
+    --black: #000000;
+}
