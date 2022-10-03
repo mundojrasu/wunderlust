@@ -45,6 +45,11 @@ table {
 }
 
 /*Main Styles*/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*CSS Variables*/
 :root{
     --yellow: #F6D64A;
     --teal: #55BCD5;
@@ -54,4 +59,44 @@ table {
     --lightgray: #EAEAEA;
     --white: #FFFFFF;
     --black: #000000;
+	--montserrat: 'Montserrat', san-serif;
+	--molle: 'Molle', serif;
 }
+
+/*Global Styles*/
+* {
+	box-sizing: border-box;
+	line-height: 1.35 em;
+}
+
+html {
+	background-image: linear-gradient(to bottom, var(--teal), var(--white));
+}
+
+body {
+	width: 320px;
+	margin: 0 auto;
+}
+
+body a {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* /*Medium Screen
+@media screen and (min-width: 500px) {
+	body {
+		width: 500px;
+	}		
+}*/
+
+/*Large Screen
+@media screen and (min-width: 1920px) {
+	body {
+		width: 768px;
+	}		
+} */
