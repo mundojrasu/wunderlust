@@ -69,16 +69,15 @@ table {
 	line-height: 1.35 em;
 }
 
-html {
+
+body {
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 320px;
 	background-image: linear-gradient(to bottom, var(--teal), var(--white));
 }
 
-body {
-	width: 320px;
-	margin: 0 auto;
-}
-
-body a {
+#skip {
   position: absolute;
   left: -10000px;
   top: auto;
@@ -86,6 +85,32 @@ body a {
   height: 1px;
   overflow: hidden;
 }
+
+/*Header styling*/
+header {
+	width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+header h1 {
+	font-family: var(--molle);
+	font-size: 50px;
+	grid-column-start: 1 / 2;
+}
+
+header p {
+	font-family: var(--montserrat);
+	font-size: large;
+}
+
+header #logo, header h1{
+	
+}
+
+
+
 
 /* /*Medium Screen
 @media screen and (min-width: 500px) {
