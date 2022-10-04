@@ -109,9 +109,12 @@ header h1 {
 header p {
 	font-family: var(--montserrat);
 	font-size: large;
+	font-weight: 200;
 	grid-column: 1;
 	grid-row: 3;
 	padding-bottom: 30px;
+	line-height: 1.5em;
+
 }
 
 /*Nav Styling*/
@@ -189,6 +192,62 @@ header nav {
 	height: 1px;
 	overflow: hidden;
   }
+
+
+/*Main Content Styling*/
+/*Intro Styling*/
+#intro h2 {
+	font-family: var(--molle);
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+
+#intro p {
+	font-family: var(--montserrat);
+	line-height: 2em;
+	padding-bottom: 20px;
+}
+
+#intro img {
+	width: 500px;
+	height: 300px;
+	padding-bottom: 10px;
+}
+
+#intro picture img {
+	width: 500px;
+	height: 300px;
+	object-fit: fill;
+	padding-bottom: 30px;
+}
+
+/*Plan Your Trip Styling*/
+
+#plan {
+	background-color: var(--yellow);
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+#plan h3 {
+	font-family: var(--molle);
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+#plan div h4 {
+	font-family: var(--montserrat);
+	font-size: 20px;
+	text-transform: uppercase;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column: 1;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+}
 
 
 
