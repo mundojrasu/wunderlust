@@ -209,14 +209,14 @@ header nav {
 }
 
 #intro img {
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 150px;
 	padding-bottom: 10px;
 }
 
 #intro picture img {
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 150px;
 	object-fit: fill;
 	padding-bottom: 30px;
 }
@@ -225,9 +225,9 @@ header nav {
 
 #plan {
 	background-color: var(--yellow);
-	display: grid;
-	grid-template-columns: 1fr;
+	
 }
+
 
 #plan h3 {
 	font-family: var(--molle);
@@ -237,16 +237,74 @@ header nav {
 	margin: 0 auto;
 }
 
-#plan div h4 {
+#plan h4 {
 	font-family: var(--montserrat);
 	font-size: 20px;
+	color: var(--white);
 	text-transform: uppercase;
+	padding-left: 60px;
+}
+
+#plan img {
+	padding: 60px;
+	width: 75%;
+}
+
+#plan section {
+	background-color: var(--teal);
+	display: grid;
+	grid-column: 1;
+	align-items: center;
+	margin: 0 auto;
+	block-size: 50x;
+	border-radius: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 4px;
+	border-style: solid;
+	border-color: var(--white);
+}
+
+/*Testimonials stying*/
+
+#testimonials {
+	background-color: var(--white);
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-column: 1;
+}
+
+#testimonials div {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-left: 50px;
+}
+
+
+#testimonials h3 {
+	font-family: var(--molle);
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin: 0 auto;
-	align-items: center;
+}
+
+#testimonials h4 {
+	font-family: var(--montserrat);
+	font-size: 40px;
 	justify-content: center;
+}
+
+#testimonials p {
+	font-family: var(--montserrat);
+	font-size: 15px;
+	justify-content: center;
+}
+
+#testimonials q {
+	font-family: var(--montserrat);
+	font-size: 15px;
+	font-style: italic;
+	align-items: center;
 }
 
 
